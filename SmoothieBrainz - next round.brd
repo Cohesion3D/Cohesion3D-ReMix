@@ -7474,8 +7474,8 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <wire x1="13.815" y1="10.83125" x2="11.90625" y2="12.74" width="1.27" layer="1"/>
 <polygon width="0.254" layer="1" thermals="no">
 <vertex x="8.89" y="17.30375"/>
-<vertex x="8.89" y="7.77875"/>
-<vertex x="12.7" y="7.77875"/>
+<vertex x="8.89" y="9.04875"/>
+<vertex x="12.7" y="9.04875"/>
 <vertex x="12.7" y="2.06375"/>
 <vertex x="15.24" y="2.06375"/>
 <vertex x="15.24" y="17.30375"/>
@@ -7671,8 +7671,8 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <signal name="E2-CONTROL" class="5">
 <polygon width="0.254" layer="1" thermals="no">
 <vertex x="16.51" y="17.30375"/>
-<vertex x="16.51" y="7.14375"/>
-<vertex x="20.32" y="7.14375"/>
+<vertex x="16.51" y="9.04875"/>
+<vertex x="20.32" y="9.04875"/>
 <vertex x="20.32" y="2.06375"/>
 <vertex x="22.86" y="2.06375"/>
 <vertex x="22.86" y="17.30375"/>
@@ -7701,8 +7701,8 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <signal name="E3-CONTROL" class="5">
 <polygon width="0.254" layer="1" thermals="no">
 <vertex x="24.13" y="17.30375"/>
-<vertex x="24.13" y="7.14375"/>
-<vertex x="27.94" y="7.14375"/>
+<vertex x="24.13" y="9.04875"/>
+<vertex x="27.94" y="9.04875"/>
 <vertex x="27.94" y="3.96875"/>
 <vertex x="30.48" y="3.96875"/>
 <vertex x="30.48" y="17.30375"/>
@@ -7731,8 +7731,8 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <signal name="E4-CONTROL" class="5">
 <polygon width="0.254" layer="1" thermals="no">
 <vertex x="31.75" y="17.30375"/>
-<vertex x="31.75" y="7.14375"/>
-<vertex x="35.56" y="7.14375"/>
+<vertex x="31.75" y="9.04875"/>
+<vertex x="35.56" y="9.04875"/>
 <vertex x="35.56" y="3.96875"/>
 <vertex x="38.1" y="3.96875"/>
 <vertex x="38.1" y="17.30375"/>

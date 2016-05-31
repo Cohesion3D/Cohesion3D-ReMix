@@ -196,7 +196,6 @@
 <text x="58.29125" y="16.543125" size="0.8128" layer="21" font="vector" ratio="13">THERMISTORS</text>
 <text x="13.615" y="59.36875" size="1.27" layer="21" font="vector" ratio="13">33uH</text>
 <text x="29.97" y="69.61875" size="1.27" layer="21" font="vector" ratio="13">LM2596</text>
-<text x="74.61725" y="23.247" size="1.27" layer="21" font="vector" ratio="13" rot="R270">100U</text>
 <wire x1="101" y1="3" x2="96.84125" y2="0" width="0.254" layer="20" curve="-90"/>
 <wire x1="98" y1="101" x2="101" y2="97.43125" width="0.254" layer="20" curve="-90"/>
 <wire x1="0" y1="97.59" x2="3" y2="101" width="0.254" layer="20" curve="-90"/>
@@ -3105,8 +3104,14 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <element name="U$18" library="adafruit" package="FIDUCIAL_1MM" value="FIDUCIAL" x="99.53625" y="80.01" rot="MR0"/>
 <element name="U$19" library="adafruit" package="FIDUCIAL_1MM" value="FIDUCIAL" x="93.98" y="21.59" rot="MR0"/>
 <element name="U$20" library="adafruit" package="FIDUCIAL_1MM" value="FIDUCIAL" x="4.445" y="24.92375" rot="MR0"/>
-<element name="C23" library="resistor" package="153CLV-0605" value="100uF" x="76.835" y="20.955" rot="R90"/>
-<element name="C24" library="resistor" package="153CLV-0605" value="100uF" x="35.56" y="50.8"/>
+<element name="C23" library="resistor" package="153CLV-0605" value="100u" x="76.835" y="20.955" smashed="yes" rot="R90">
+<attribute name="NAME" x="73.205" y="17.565" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="75.878" y="18.8" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="C24" library="resistor" package="153CLV-0605" value="100uF" x="35.56" y="50.8" smashed="yes">
+<attribute name="NAME" x="32.17" y="54.43" size="1.27" layer="25"/>
+<attribute name="VALUE" x="32.897" y="51.376" size="1.27" layer="27"/>
+</element>
 </elements>
 <signals>
 <signal name="N$1">

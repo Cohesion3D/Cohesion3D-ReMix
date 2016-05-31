@@ -3746,7 +3746,7 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <wire x1="28.4375" y1="53.71875" x2="32.366375" y2="53.71875" width="1.27" layer="16"/>
 <wire x1="32.366375" y1="53.71875" x2="32.5650625" y2="53.5200625" width="1.27" layer="16"/>
 <via x="33.573125" y="45.92375" extent="1-16" drill="0.5"/>
-<wire x1="33.573125" y1="45.92375" x2="33.573125" y2="50.083125" width="1.27" layer="16"/>
+<wire x1="33.573125" y1="45.92375" x2="33.573125" y2="50.718125" width="1.27" layer="16"/>
 <wire x1="35.07" y1="59.91875" x2="35.07" y2="56.025" width="1.27" layer="16"/>
 <wire x1="35.07" y1="56.025" x2="32.5650625" y2="53.5200625" width="1.27" layer="16"/>
 <wire x1="14.605" y1="41.43375" x2="14.605" y2="43.18" width="1.27" layer="16"/>
@@ -3909,8 +3909,12 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <via x="78.359" y="19.939" extent="1-16" drill="0.6"/>
 <wire x1="76.835" y1="18.255" x2="76.835" y2="18.415" width="0.8128" layer="1"/>
 <wire x1="76.835" y1="18.415" x2="78.359" y2="19.939" width="0.8128" layer="1"/>
-<wire x1="32.5650625" y1="53.5200625" x2="32.5650625" y2="51.0911875" width="1.27" layer="16"/>
-<wire x1="32.5650625" y1="51.0911875" x2="33.573125" y2="50.083125" width="1.27" layer="16"/>
+<wire x1="32.5650625" y1="53.5200625" x2="32.5650625" y2="51.7261875" width="1.27" layer="16"/>
+<wire x1="32.5650625" y1="51.7261875" x2="33.573125" y2="50.718125" width="1.27" layer="16"/>
+<wire x1="32.86" y1="50.8" x2="34.925" y2="50.8" width="1.27" layer="1"/>
+<via x="34.925" y="50.8" extent="1-16" drill="0.6"/>
+<wire x1="34.925" y1="50.8" x2="33.655" y2="50.8" width="1.27" layer="16"/>
+<wire x1="33.655" y1="50.8" x2="33.573125" y2="50.718125" width="1.27" layer="16"/>
 <wire x1="98.1075" y1="93.0275" x2="98" y2="98" width="0" layer="19" extent="1-1"/>
 <wire x1="99.3775" y1="93.0275" x2="98.1075" y2="93.0275" width="0" layer="19" extent="1-1"/>
 <wire x1="99.3775" y1="91.7575" x2="99.3775" y2="93.0275" width="0" layer="19" extent="1-1"/>
@@ -3955,7 +3959,6 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <wire x1="37.87" y1="68.51875" x2="40.37875" y2="75.8825" width="0" layer="19" extent="1-1"/>
 <wire x1="5.87375" y1="92.86875" x2="5.92125" y2="92.91625" width="0" layer="19" extent="1-1"/>
 <wire x1="3.4925" y1="93.0275" x2="3.54" y2="92.91625" width="0" layer="19" extent="16-16"/>
-<wire x1="32.86" y1="50.8" x2="32.5650625" y2="51.0911875" width="0" layer="19" extent="1-16"/>
 <wire x1="3.4925" y1="91.7575" x2="3.54" y2="92.91625" width="0" layer="19" extent="16-16"/>
 <wire x1="2.2225" y1="93.0275" x2="3.4925" y2="93.0275" width="0" layer="19" extent="1-1"/>
 <wire x1="0.9525" y1="93.0275" x2="2.2225" y2="93.0275" width="0" layer="19" extent="1-1"/>
@@ -8064,6 +8067,7 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <approved hash="8,1,029174661c46a781"/>
 <approved hash="8,1,b2d3d38d3edfb7f4"/>
 <approved hash="8,1,c8c6c6a77e3a1d9e"/>
+<approved hash="8,1,bdfb87fd0fb4a6bf"/>
 <approved hash="8,1,86673bfd62212446"/>
 <approved hash="8,1,187d3dddc8d53e33"/>
 <approved hash="8,1,dc5e71b26d4d3c86"/>
@@ -8156,8 +8160,8 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <approved hash="4,1,6350691cf3d842e0"/>
 <approved hash="19,1,0e33b979acf9f2f5"/>
 <approved hash="19,1,d24afcb0395c8fec"/>
-<approved hash="19,1,f9cc7026771cfef6"/>
 <approved hash="19,1,fde979799cf9a2f4"/>
+<approved hash="19,1,f9cc7026771cfef6"/>
 <approved hash="19,1,26a79256ef0bc3b0"/>
 <approved hash="19,1,7969f72515cd72c7"/>
 <approved hash="19,1,84bbdcd925a8c5df"/>
@@ -8176,26 +8180,30 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <approved hash="4,16,20e22a573e3793a5"/>
 <approved hash="4,16,6350691cf3d842e0"/>
 <approved hash="19,16,6aa21de68ad2c5f3"/>
+<approved hash="19,16,caff33f5a290464c"/>
 <approved hash="19,16,cbe3da834ac24658"/>
 <approved hash="19,16,c4bfcf1e5f7f4838"/>
-<approved hash="19,16,caff33f5a290464c"/>
-<approved hash="19,16,fa13e1a6f9f39516"/>
-<approved hash="19,16,9715dd46cc8a9b23"/>
-<approved hash="19,16,451821d24e7ed846"/>
-<approved hash="19,16,ef0c14370af916a5"/>
 <approved hash="19,16,79660e7e79a183a4"/>
 <approved hash="19,16,a2926a4561276d6b"/>
 <approved hash="19,16,eddd8a50721ce68d"/>
 <approved hash="19,16,97d5c80dd6ab9595"/>
 <approved hash="19,16,4cfc32c15a3ddf5a"/>
 <approved hash="19,16,e18a0f7e11de18e5"/>
-<approved hash="19,16,6365a5889da7b22d"/>
+<approved hash="19,16,fa13e1a6f9f39516"/>
+<approved hash="19,16,9715dd46cc8a9b23"/>
+<approved hash="19,16,451821d24e7ed846"/>
+<approved hash="19,16,ef0c14370af916a5"/>
 <approved hash="19,16,e6f62b3c62cf2881"/>
+<approved hash="19,16,6365a5889da7b22d"/>
 <approved hash="19,16,96d5359c24049a9b"/>
 <approved hash="19,16,b145017f014cb176"/>
-<approved hash="19,16,02f1fb201445f042"/>
 <approved hash="19,16,03ed1256fc17f056"/>
+<approved hash="19,16,02f1fb201445f042"/>
 <approved hash="19,16,0cb107cbe9aafe36"/>
+<approved hash="19,16,9cc939762927118a"/>
+<approved hash="19,16,8bdf1a56aa183656"/>
+<approved hash="19,16,ffd5a0db247d6795"/>
+<approved hash="19,16,394c95769b4f3775"/>
 <approved hash="19,16,293421176dc4fca1"/>
 <approved hash="19,16,807f11f6a09ac87d"/>
 <approved hash="19,16,fed55d4ad6d2689b"/>
@@ -8203,14 +8211,13 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <approved hash="19,16,9c1731a021f105cd"/>
 <approved hash="19,16,ff15b5903e5c6923"/>
 <approved hash="19,16,31a89d929b8d37b7"/>
-<approved hash="19,16,8bdf1a56aa183656"/>
-<approved hash="19,16,9cc939762927118a"/>
-<approved hash="19,16,ffd5a0db247d6795"/>
-<approved hash="19,16,394c95769b4f3775"/>
 <approved hash="19,16,6aa38d73fe44b1fe"/>
 <approved hash="19,16,f4b0ffbc93dd8437"/>
-<approved hash="19,16,fbecea2186608a57"/>
 <approved hash="19,16,faf003576e328a43"/>
+<approved hash="19,16,fbecea2186608a57"/>
+<approved hash="19,16,2e10b9a611f01d81"/>
+<approved hash="19,16,9715ddea8026d723"/>
+<approved hash="19,16,b5ad05970387b3bd"/>
 <approved hash="19,16,0efbbb3342ccd88c"/>
 <approved hash="19,16,327e09f0909d4031"/>
 <approved hash="19,16,96d5353068a8d69b"/>
@@ -8219,13 +8226,13 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <approved hash="19,16,39de02509a1fbe1a"/>
 <approved hash="19,16,97d5c8a19a07d995"/>
 <approved hash="19,16,bd490d730345b37f"/>
-<approved hash="19,16,2e10b9a611f01d81"/>
-<approved hash="19,16,9715ddea8026d723"/>
-<approved hash="19,16,b5ad05970387b3bd"/>
 <approved hash="19,16,f687b97db943f6b9"/>
-<approved hash="19,16,c2f03a95e1f00443"/>
-<approved hash="19,16,c3ecd3e309a20457"/>
 <approved hash="19,16,ccb0c67e1c1f0a37"/>
+<approved hash="19,16,c3ecd3e309a20457"/>
+<approved hash="19,16,c2f03a95e1f00443"/>
+<approved hash="19,16,3c7129f2789091c8"/>
+<approved hash="19,16,6ed5ccfceb64549b"/>
+<approved hash="19,16,bd44f97ef952bd68"/>
 <approved hash="19,16,201d69a4f9ff3c78"/>
 <approved hash="19,16,6f15242603ea5523"/>
 <approved hash="19,16,b9acfd96fb96bfac"/>
@@ -8233,9 +8240,6 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <approved hash="19,16,20c36172f129283f"/>
 <approved hash="19,16,6fd5316d19cb5b95"/>
 <approved hash="19,16,b148f572fb54bf6e"/>
-<approved hash="19,16,3c7129f2789091c8"/>
-<approved hash="19,16,6ed5ccfceb64549b"/>
-<approved hash="19,16,bd44f97ef952bd68"/>
 <approved hash="19,16,fe87017d014afeb0"/>
 <approved hash="19,16,faf002c35ba6be43"/>
 <approved hash="19,16,fbecebb5b3f4be57"/>
