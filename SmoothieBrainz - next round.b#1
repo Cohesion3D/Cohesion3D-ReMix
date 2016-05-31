@@ -6165,8 +6165,7 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <wire x1="89.69375" y1="63.5" x2="90.01125" y2="63.8175" width="0.254" layer="1"/>
 <wire x1="51.06985625" y1="38.57625" x2="50.3986" y2="39.24750625" width="0.254" layer="1"/>
 <wire x1="49.53" y1="40.132" x2="50.3936" y2="39.2684" width="0.254" layer="1"/>
-<wire x1="50.3936" y1="39.2684" x2="50.3936" y2="39.25250625" width="0.254" layer="1"/>
-<wire x1="50.3936" y1="39.25250625" x2="50.3986" y2="39.24750625" width="0.254" layer="1"/>
+<wire x1="50.3986" y1="39.24750625" x2="50.3936" y2="39.2684" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PWM1_BED_HEATER">
 <contactref element="IC1" pad="68"/>
@@ -7537,8 +7536,7 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <wire x1="12.22375" y1="19.94625" x2="12.22375" y2="13.0575" width="0.4064" layer="1"/>
 <wire x1="12.22375" y1="13.0575" x2="11.90625" y2="12.74" width="0.4064" layer="1"/>
 <contactref element="D5" pad="2"/>
-<wire x1="14.51" y1="5.87375" x2="14.51" y2="4.24625" width="0.254" layer="16"/>
-<wire x1="14.51" y1="4.24625" x2="13.815" y2="3.55125" width="0.254" layer="16"/>
+<wire x1="13.815" y1="3.55125" x2="14.51" y2="5.87375" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$28">
 <contactref element="R35" pad="2"/>
@@ -7620,12 +7618,9 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <wire x1="27.14625" y1="24.245" x2="27.14625" y2="23.97125" width="0.254" layer="1"/>
 <wire x1="27.14625" y1="23.97125" x2="27.305" y2="23.8125" width="0.254" layer="1"/>
 <wire x1="34.33375" y1="23.8125" x2="34.76625" y2="24.245" width="0.254" layer="1"/>
-<wire x1="17.24" y1="5.87375" x2="17.24" y2="4.24625" width="0.254" layer="16"/>
-<wire x1="17.24" y1="4.24625" x2="17.935" y2="3.55125" width="0.254" layer="16"/>
-<wire x1="24.86" y1="5.87375" x2="24.86" y2="4.24625" width="0.254" layer="16"/>
-<wire x1="24.86" y1="4.24625" x2="25.555" y2="3.55125" width="0.254" layer="16"/>
-<wire x1="32.48" y1="5.87375" x2="32.48" y2="4.24625" width="0.254" layer="16"/>
-<wire x1="32.48" y1="4.24625" x2="33.175" y2="3.55125" width="0.254" layer="16"/>
+<wire x1="33.175" y1="3.55125" x2="32.48" y2="5.87375" width="0" layer="19" extent="16-16"/>
+<wire x1="24.86" y1="5.87375" x2="25.555" y2="3.55125" width="0" layer="19" extent="16-16"/>
+<wire x1="17.24" y1="5.87375" x2="17.935" y2="3.55125" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$30">
 <contactref element="R37" pad="1"/>
@@ -7737,8 +7732,7 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <contactref element="X5" pad="2"/>
 <wire x1="19.84375" y1="19.94625" x2="19.84375" y2="13.0575" width="0.4064" layer="1"/>
 <wire x1="19.84375" y1="13.0575" x2="19.52625" y2="12.74" width="0.4064" layer="1"/>
-<wire x1="22.13" y1="5.87375" x2="22.13" y2="4.24625" width="0.254" layer="16"/>
-<wire x1="22.13" y1="4.24625" x2="21.435" y2="3.55125" width="0.254" layer="16"/>
+<wire x1="21.435" y1="3.55125" x2="22.13" y2="5.87375" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$39">
 <contactref element="R43" pad="2"/>
@@ -7767,8 +7761,7 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <contactref element="X6" pad="2"/>
 <wire x1="27.46375" y1="19.94625" x2="27.46375" y2="13.0575" width="0.4064" layer="1"/>
 <wire x1="27.46375" y1="13.0575" x2="27.14625" y2="12.74" width="0.4064" layer="1"/>
-<wire x1="29.75" y1="5.87375" x2="29.75" y2="4.24625" width="0.254" layer="16"/>
-<wire x1="29.75" y1="4.24625" x2="29.055" y2="3.55125" width="0.254" layer="16"/>
+<wire x1="29.055" y1="3.55125" x2="29.75" y2="5.87375" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$41">
 <contactref element="R46" pad="2"/>
@@ -7797,8 +7790,7 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <contactref element="X7" pad="2"/>
 <wire x1="35.08375" y1="19.94625" x2="35.08375" y2="13.0575" width="0.4064" layer="1"/>
 <wire x1="35.08375" y1="13.0575" x2="34.76625" y2="12.74" width="0.4064" layer="1"/>
-<wire x1="37.37" y1="5.87375" x2="37.37" y2="4.24625" width="0.254" layer="16"/>
-<wire x1="37.37" y1="4.24625" x2="36.675" y2="3.55125" width="0.254" layer="16"/>
+<wire x1="36.675" y1="3.55125" x2="37.37" y2="5.87375" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$43">
 <contactref element="U$8" pad="RST"/>
