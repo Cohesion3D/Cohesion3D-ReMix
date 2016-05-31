@@ -34703,6 +34703,8 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <part name="U$20" library="adafruit" deviceset="FIDUCIAL" device=""/>
 <part name="C23" library="resistor" deviceset="CPOL-EU" device="153CLV-0605" value="100u"/>
 <part name="C24" library="resistor" deviceset="CPOL-EU" device="153CLV-0605" value="100u"/>
+<part name="LED12" library="led" deviceset="LED" device="SML0603" value="VMOT"/>
+<part name="R57" library="resistor" deviceset="R-EU_" device="R0603" value="1.5k"/>
 </parts>
 <sheets>
 <sheet>
@@ -35051,6 +35053,8 @@ cut a BOM line item</text>
 <instance part="U$20" gate="G$1" x="27.94" y="205.74"/>
 <instance part="C23" gate="G$1" x="20.32" y="7.62"/>
 <instance part="C24" gate="G$1" x="68.58" y="7.62"/>
+<instance part="LED12" gate="G$1" x="43.18" y="73.66" rot="MR270"/>
+<instance part="R57" gate="G$1" x="60.96" y="73.66" rot="MR180"/>
 </instances>
 <busses>
 </busses>
@@ -35221,6 +35225,15 @@ cut a BOM line item</text>
 <pinref part="LED2" gate="G$1" pin="C"/>
 <pinref part="LED3" gate="G$1" pin="C"/>
 <pinref part="LED4" gate="G$1" pin="C"/>
+<wire x1="12.7" y1="78.74" x2="20.32" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="78.74" x2="20.32" y2="73.66" width="0.1524" layer="91"/>
+<junction x="12.7" y="78.74"/>
+<pinref part="LED12" gate="G$1" pin="A"/>
+<wire x1="20.32" y1="73.66" x2="38.1" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="73.66" x2="40.64" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="78.74" x2="38.1" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="78.74" x2="38.1" y2="73.66" width="0.1524" layer="91"/>
+<junction x="38.1" y="73.66"/>
 </segment>
 <segment>
 <wire x1="520.7" y1="462.28" x2="520.7" y2="459.74" width="0.1524" layer="91"/>
@@ -37696,6 +37709,11 @@ cut a BOM line item</text>
 <wire x1="119.38" y1="307.34" x2="134.62" y2="307.34" width="0.1524" layer="91"/>
 <label x="121.92" y="307.34" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="R57" gate="G$1" pin="2"/>
+<wire x1="66.04" y1="73.66" x2="76.2" y2="73.66" width="0.1524" layer="91"/>
+<label x="71.12" y="73.66" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$16" class="0">
 <segment>
@@ -38843,6 +38861,16 @@ cut a BOM line item</text>
 <pinref part="SJ26" gate="G$1" pin="2"/>
 <wire x1="266.7" y1="271.78" x2="266.7" y2="256.54" width="0.1524" layer="91"/>
 <label x="266.7" y="256.54" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="N$23" class="0">
+<segment>
+<pinref part="R57" gate="G$1" pin="1"/>
+<pinref part="LED12" gate="G$1" pin="C"/>
+<wire x1="55.88" y1="73.66" x2="53.34" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="73.66" x2="48.26" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="78.74" x2="53.34" y2="73.66" width="0.1524" layer="91"/>
+<junction x="53.34" y="73.66"/>
 </segment>
 </net>
 </nets>
