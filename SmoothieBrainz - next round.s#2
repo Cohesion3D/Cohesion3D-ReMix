@@ -34701,8 +34701,8 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <part name="U$18" library="adafruit" deviceset="FIDUCIAL" device=""/>
 <part name="U$19" library="adafruit" deviceset="FIDUCIAL" device=""/>
 <part name="U$20" library="adafruit" deviceset="FIDUCIAL" device=""/>
-<part name="C23" library="resistor" deviceset="CPOL-EU" device="153CLV-0605" value="100u"/>
-<part name="C24" library="resistor" deviceset="CPOL-EU" device="153CLV-0605" value="100u"/>
+<part name="C23" library="resistor" deviceset="CPOL-EU" device="153CLV-0605" value="100uF"/>
+<part name="C24" library="resistor" deviceset="CPOL-EU" device="153CLV-0605" value="100uF"/>
 </parts>
 <sheets>
 <sheet>

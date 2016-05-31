@@ -34487,6 +34487,8 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <part name="U$4" library="SparkFun" deviceset="5V" device=""/>
 <part name="SUPPLY87" library="supply2" deviceset="GND" device=""/>
 <part name="P+4" library="SparkFun" deviceset="3.3V" device=""/>
+<part name="C15" library="rcl" deviceset="CPOL-EU" device="E2.5-7"/>
+<part name="C16" library="rcl" deviceset="CPOL-EU" device="E2.5-7" value="100U"/>
 <part name="EXP1" library="con-3m" deviceset="2510-" device=""/>
 <part name="EXP2" library="con-3m" deviceset="2510-" device=""/>
 <part name="D7" library="semicon-smd-ipc" deviceset="D-" device="SOD-87" value="M4"/>
@@ -34701,8 +34703,8 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <part name="U$18" library="adafruit" deviceset="FIDUCIAL" device=""/>
 <part name="U$19" library="adafruit" deviceset="FIDUCIAL" device=""/>
 <part name="U$20" library="adafruit" deviceset="FIDUCIAL" device=""/>
-<part name="C23" library="resistor" deviceset="CPOL-EU" device="153CLV-0605" value="100u"/>
-<part name="C24" library="resistor" deviceset="CPOL-EU" device="153CLV-0605" value="100u"/>
+<part name="C23" library="resistor" deviceset="CPOL-EU" device="153CLV-0605" value="100uF"/>
+<part name="C24" library="resistor" deviceset="CPOL-EU" device="153CLV-0605" value="100uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -34805,6 +34807,8 @@ cut a BOM line item</text>
 <instance part="U$4" gate="G$1" x="513.08" y="472.44"/>
 <instance part="SUPPLY87" gate="GND" x="248.92" y="78.74"/>
 <instance part="P+4" gate="G$1" x="45.72" y="55.88"/>
+<instance part="C15" gate="G$1" x="33.02" y="7.62"/>
+<instance part="C16" gate="G$1" x="53.34" y="7.62"/>
 <instance part="EXP1" gate="-1" x="58.42" y="406.4" rot="R180"/>
 <instance part="EXP1" gate="-2" x="58.42" y="408.94" rot="R180"/>
 <instance part="EXP1" gate="-3" x="58.42" y="411.48" rot="R180"/>
@@ -35243,11 +35247,17 @@ cut a BOM line item</text>
 <segment>
 <wire x1="43.18" y1="2.54" x2="43.18" y2="-2.54" width="0.1524" layer="91"/>
 <label x="45.72" y="-2.54" size="1.778" layer="95"/>
+<pinref part="C15" gate="G$1" pin="-"/>
+<wire x1="33.02" y1="2.54" x2="43.18" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="C16" gate="G$1" pin="-"/>
+<wire x1="43.18" y1="2.54" x2="53.34" y2="2.54" width="0.1524" layer="91"/>
 <junction x="43.18" y="2.54"/>
 <pinref part="C23" gate="G$1" pin="-"/>
-<wire x1="20.32" y1="2.54" x2="43.18" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="2.54" x2="33.02" y2="2.54" width="0.1524" layer="91"/>
+<junction x="33.02" y="2.54"/>
 <pinref part="C24" gate="G$1" pin="-"/>
-<wire x1="68.58" y1="2.54" x2="43.18" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="2.54" x2="53.34" y2="2.54" width="0.1524" layer="91"/>
+<junction x="53.34" y="2.54"/>
 </segment>
 <segment>
 <pinref part="EXP1" gate="-9" pin="KL"/>
@@ -35759,9 +35769,12 @@ cut a BOM line item</text>
 <junction x="505.46" y="464.82"/>
 </segment>
 <segment>
+<wire x1="50.8" y1="10.16" x2="53.34" y2="10.16" width="0.1524" layer="91"/>
 <label x="58.42" y="10.16" size="1.778" layer="95"/>
+<pinref part="C16" gate="G$1" pin="+"/>
+<junction x="53.34" y="10.16"/>
 <pinref part="C24" gate="G$1" pin="+"/>
-<wire x1="50.8" y1="10.16" x2="68.58" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="10.16" x2="68.58" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R24" gate="G$1" pin="1"/>
@@ -37451,9 +37464,12 @@ cut a BOM line item</text>
 <label x="513.08" y="472.44" size="1.778" layer="95"/>
 </segment>
 <segment>
+<wire x1="35.56" y1="10.16" x2="33.02" y2="10.16" width="0.1524" layer="91"/>
 <label x="25.4" y="10.16" size="1.778" layer="95"/>
+<pinref part="C15" gate="G$1" pin="+"/>
+<wire x1="33.02" y1="10.16" x2="20.32" y2="10.16" width="0.1524" layer="91"/>
+<junction x="33.02" y="10.16"/>
 <pinref part="C23" gate="G$1" pin="+"/>
-<wire x1="35.56" y1="10.16" x2="20.32" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="EXP1" gate="-10" pin="KL"/>
