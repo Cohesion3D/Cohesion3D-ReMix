@@ -3889,6 +3889,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <via x="90.291125" y="52.45575" extent="1-16" drill="0.5"/>
 <via x="91.307125" y="52.45575" extent="1-16" drill="0.5"/>
 <via x="92.323125" y="52.45575" extent="1-16" drill="0.5"/>
+<via x="74.924125" y="58.42475" extent="1-16" drill="0.5"/>
 </signal>
 <signal name="3.3V">
 <contactref element="IC1" pad="96"/>

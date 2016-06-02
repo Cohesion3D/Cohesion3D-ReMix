@@ -8,7 +8,7 @@
 </settings>
 <grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="2" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -369,21 +369,6 @@ RX</text>
 <text x="93.583125" y="3.33375" size="0.8128" layer="22" rot="MR0">-</text>
 <text x="94.376875" y="4.048125" size="0.8128" layer="22" rot="MR0">SERVO</text>
 <text x="90.408125" y="3.33375" size="0.8128" layer="22" rot="MR0">SIG</text>
-<polygon width="0.254" layer="22">
-<vertex x="12.7" y="3.81"/>
-<vertex x="11.43" y="2.54"/>
-<vertex x="12.7" y="1.27"/>
-</polygon>
-<polygon width="0.254" layer="22">
-<vertex x="20.32" y="3.81"/>
-<vertex x="19.05" y="2.54"/>
-<vertex x="20.32" y="1.27"/>
-</polygon>
-<polygon width="0.254" layer="22">
-<vertex x="27.94" y="3.81"/>
-<vertex x="26.67" y="2.54"/>
-<vertex x="27.94" y="1.27"/>
-</polygon>
 <text x="59.190625" y="18.603125" size="0.6604" layer="22" font="vector" ratio="13" rot="MR0">TX0</text>
 <text x="59.190625" y="16.698125" size="0.6604" layer="22" font="vector" ratio="13" rot="MR0">RX0</text>
 <text x="55.698125" y="15.66625" size="0.6604" layer="22" font="vector" ratio="13" rot="MR0">ESP-TX</text>

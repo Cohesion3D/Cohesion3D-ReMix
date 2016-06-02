@@ -7868,16 +7868,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="LED12" pad="C"/>
 <wire x1="67.285" y1="62.23" x2="68.935" y2="62.23" width="0.6096" layer="1"/>
 </signal>
-<signal name="GND1">
-<via x="90.291125" y="51.43975" extent="1-16" drill="0.5"/>
-<via x="91.307125" y="51.43975" extent="1-16" drill="0.5"/>
-<via x="92.323125" y="51.43975" extent="1-16" drill="0.5"/>
-</signal>
-<signal name="GND2">
-<via x="90.291125" y="50.42375" extent="1-16" drill="0.5"/>
-<via x="91.307125" y="50.42375" extent="1-16" drill="0.5"/>
-<via x="92.323125" y="50.42375" extent="1-16" drill="0.5"/>
-</signal>
 </signals>
 <errors>
 <approved hash="8,1,226f9e335a6c2c0c"/>
