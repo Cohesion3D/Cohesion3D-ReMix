@@ -33526,14 +33526,14 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <part name="C8" library="rcl" deviceset="C-EU" device="C0603" value="104"/>
 <part name="C9" library="rcl" deviceset="C-EU" device="C0603" value="104"/>
 <part name="C10" library="rcl" deviceset="C-EU" device="C0603" value="104"/>
-<part name="C11" library="rcl" deviceset="C-EU" device="C0603" value=".1uF"/>
-<part name="C12" library="rcl" deviceset="C-EU" device="C0603" value=".1uF"/>
+<part name="C11" library="rcl" deviceset="C-EU" device="C0603" value="104"/>
+<part name="C12" library="rcl" deviceset="C-EU" device="C0603" value="104"/>
 <part name="C13" library="rcl" deviceset="C-EU" device="C0603" value="104"/>
 <part name="P+2" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
 <part name="C7" library="resistor" deviceset="C-EU" device="C0603" value="10uF"/>
 <part name="L1" library="SparkFun" deviceset="INDUCTOR" device="0603" value="39nH"/>
-<part name="C6" library="rcl" deviceset="C-EU" device="C0603" value=".1uF"/>
+<part name="C6" library="rcl" deviceset="C-EU" device="C0603" value="104"/>
 <part name="R14" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="P+19" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="SUPPLY26" library="supply2" deviceset="GND" device=""/>
@@ -33544,7 +33544,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <part name="SUPPLY27" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY28" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY30" library="supply2" deviceset="GND" device=""/>
-<part name="C1" library="resistor" deviceset="C-EU" device="C0603" value=".1uF"/>
+<part name="C1" library="resistor" deviceset="C-EU" device="C0603" value="104"/>
 <part name="P+21" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="VUSB" library="SparkFun" deviceset="5V" device="" value="VUSB"/>
 <part name="R15" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
@@ -33553,14 +33553,14 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <part name="SUPPLY61" library="supply2" deviceset="GND" device=""/>
 <part name="P+30" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="S1" library="SparkFun" deviceset="TAC_SWITCH" device="SMD"/>
-<part name="LED1" library="led" deviceset="LED" device="SML0603"/>
-<part name="LED2" library="led" deviceset="LED" device="SML0603"/>
-<part name="LED3" library="led" deviceset="LED" device="SML0603"/>
-<part name="LED4" library="led" deviceset="LED" device="SML0603"/>
-<part name="R10" library="resistor" deviceset="R-US_" device="R0603"/>
-<part name="R11" library="resistor" deviceset="R-US_" device="R0603"/>
-<part name="R12" library="resistor" deviceset="R-US_" device="R0603"/>
-<part name="R13" library="resistor" deviceset="R-US_" device="R0603"/>
+<part name="LED1" library="led" deviceset="LED" device="SML0603" value="GREEN"/>
+<part name="LED2" library="led" deviceset="LED" device="SML0603" value="GREEN"/>
+<part name="LED3" library="led" deviceset="LED" device="SML0603" value="GREEN"/>
+<part name="LED4" library="led" deviceset="LED" device="SML0603" value="GREEN"/>
+<part name="R10" library="resistor" deviceset="R-US_" device="R0603" value="1k"/>
+<part name="R11" library="resistor" deviceset="R-US_" device="R0603" value="1k"/>
+<part name="R12" library="resistor" deviceset="R-US_" device="R0603" value="1k"/>
+<part name="R13" library="resistor" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="SUPPLY65" library="supply2" deviceset="GND" device=""/>
 <part name="R3" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="R2" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
@@ -33601,16 +33601,16 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <part name="C22" library="resistor" deviceset="C-EU" device="C0603" value="104"/>
 <part name="VUSB2" library="SparkFun" deviceset="5V" device="" value="VUSB"/>
 <part name="P+27" library="SparkFun" deviceset="3.3V" device=""/>
-<part name="C65" library="resistor" deviceset="C-EU" device="C0603" value=".1uF"/>
+<part name="C65" library="resistor" deviceset="C-EU" device="C0603" value="104"/>
 <part name="C64" library="resistor" deviceset="C-EU" device="C0603" value="10uF"/>
 <part name="SUPPLY59" library="supply2" deviceset="GND" device=""/>
-<part name="LED9" library="led" deviceset="LED" device="SML0603"/>
-<part name="R77" library="resistor" deviceset="R-US_" device="R0603"/>
+<part name="LED9" library="led" deviceset="LED" device="SML0603" value="GREEN"/>
+<part name="R77" library="resistor" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="D1" library="microbuilder" deviceset="DIODE" device="SMA" value="MBRA210LT3"/>
 <part name="U$3" library="SparkFun" deviceset="5V" device=""/>
-<part name="IC2" library="linear" deviceset="LM2596S" device=""/>
+<part name="IC2" library="linear" deviceset="LM2596S" device="" value="LM2596-5"/>
 <part name="L2" library="SparkFun-Passives" deviceset="INDUCTOR" device="PWR" value="33uH"/>
-<part name="D2" library="dp_devices" deviceset="DIODE" device="-DO-214AC"/>
+<part name="D2" library="dp_devices" deviceset="DIODE" device="-DO-214AC" value="SS34"/>
 <part name="C26" library="rcl" deviceset="CPOL-EU" device="E2.5-7" value="220u"/>
 <part name="C27" library="rcl" deviceset="CPOL-EU" device="E2.5-7" value="220u"/>
 <part name="D3" library="microbuilder" deviceset="DIODE" device="SMA" value="MBRA210LT3"/>
@@ -33634,7 +33634,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <part name="P+3" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="SUPPLY4" library="supply2" deviceset="GND" device=""/>
 <part name="JP5" library="SparkFun-Connectors" deviceset="M05" device="NO_SILK"/>
-<part name="LED5" library="led" deviceset="LED" device="CHIP-LED0603"/>
+<part name="LED5" library="led" deviceset="LED" device="SML0603" value="GREEN"/>
 <part name="R18" library="resistor" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="U3" library="SparkFun-Connectors_PETERMICROSDEBAY" deviceset="USD-SOCKET" device="USD"/>
 <part name="ZMX" library="SparkFun-Connectors" deviceset="M03" device="POLAR_LOCK"/>
@@ -33669,7 +33669,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <part name="R27" library="resistor" deviceset="R-EU_" device="R0603" value="10r"/>
 <part name="R30" library="resistor" deviceset="R-EU_" device="R0603" value="100k"/>
 <part name="R32" library="resistor" deviceset="R-EU_" device="R0603" value="1.5k"/>
-<part name="LED6" library="led" deviceset="LED" device="SML0603"/>
+<part name="LED6" library="led" deviceset="LED" device="SML0603" value="RED"/>
 <part name="X2" library="con-phoenix-762" deviceset="GMSTBA2" device=""/>
 <part name="X3" library="con-phoenix-762" deviceset="GMSTBA4" device=""/>
 <part name="U$6" library="RepRapjr" deviceset="POLOLU_A4983CARRIER" device=""/>
@@ -33691,7 +33691,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <part name="R35" library="resistor" deviceset="R-EU_" device="R0603" value="10r"/>
 <part name="R36" library="resistor" deviceset="R-EU_" device="R0603" value="100k"/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
-<part name="LED7" library="led" deviceset="LED" device="SML0603"/>
+<part name="LED7" library="led" deviceset="LED" device="SML0603" value="RED"/>
 <part name="R37" library="resistor" deviceset="R-EU_" device="R0603" value="1.5k"/>
 <part name="X4" library="con-phoenix-350-ray" deviceset="1751248" device=""/>
 <part name="X5" library="con-phoenix-350-ray" deviceset="1751248" device=""/>
@@ -33709,26 +33709,26 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <part name="R39" library="resistor" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="P+8" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="JP12" library="SparkFun-Connectors" deviceset="M04" device="LOCK"/>
-<part name="U1" library="SparkFun-PowerIC" deviceset="V_REG_LM1117" device="SOT223"/>
+<part name="U1" library="SparkFun-PowerIC" deviceset="V_REG_LM1117" device="SOT223" value="1117-3.3"/>
 <part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
 <part name="RN2" library="resistor-dil" deviceset="4R-N" device="0603-ARV" value="4k7"/>
 <part name="U$14" library="Cohesion_parts" deviceset="N-POWER-MOSFET" device="DPAK-MOSFET" value="IRLR024"/>
 <part name="R40" library="resistor" deviceset="R-EU_" device="R0603" value="10r"/>
 <part name="R41" library="resistor" deviceset="R-EU_" device="R0603" value="100k"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="LED8" library="led" deviceset="LED" device="SML0603" value="LED"/>
+<part name="LED8" library="led" deviceset="LED" device="SML0603" value="RED"/>
 <part name="R42" library="resistor" deviceset="R-EU_" device="R0603" value="1.5k"/>
 <part name="U$15" library="Cohesion_parts" deviceset="N-POWER-MOSFET" device="DPAK-MOSFET" value="IRLR024"/>
 <part name="R43" library="resistor" deviceset="R-EU_" device="R0603" value="10r"/>
 <part name="R44" library="resistor" deviceset="R-EU_" device="R0603" value="100k"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="LED10" library="led" deviceset="LED" device="SML0603" value="LED"/>
+<part name="LED10" library="led" deviceset="LED" device="SML0603" value="RED"/>
 <part name="R45" library="resistor" deviceset="R-EU_" device="R0603" value="1.5k"/>
 <part name="U$16" library="Cohesion_parts" deviceset="N-POWER-MOSFET" device="DPAK-MOSFET" value="IRLR024"/>
 <part name="R46" library="resistor" deviceset="R-EU_" device="R0603" value="10r"/>
 <part name="R47" library="resistor" deviceset="R-EU_" device="R0603" value="100k"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="LED11" library="led" deviceset="LED" device="SML0603" value="LED"/>
+<part name="LED11" library="led" deviceset="LED" device="SML0603" value="RED"/>
 <part name="R48" library="resistor" deviceset="R-EU_" device="R0603" value="1.5k"/>
 <part name="U$8" library="RepRapjr" deviceset="POLOLU_A4983CARRIER" device=""/>
 <part name="C41" library="resistor" deviceset="C-EU" device="C0603" value="104"/>
@@ -33768,7 +33768,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <part name="IC7" library="microbuilder" deviceset="74LVC1G04" device="" value="74LVC1G04"/>
 <part name="R53" library="resistor" deviceset="R-US_" device="R0603" value="22R"/>
 <part name="SUPPLY56" library="supply2" deviceset="GND" device=""/>
-<part name="C51" library="resistor" deviceset="C-EU" device="C0603" value=".1uF"/>
+<part name="C51" library="resistor" deviceset="C-EU" device="C0603" value="104"/>
 <part name="SUPPLY57" library="supply2" deviceset="GND" device=""/>
 <part name="P+18" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
@@ -33789,8 +33789,8 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <part name="U$20" library="adafruit" deviceset="FIDUCIAL" device=""/>
 <part name="C23" library="resistor" deviceset="CPOL-EU" device="153CLV-0605" value="100u"/>
 <part name="C24" library="resistor" deviceset="CPOL-EU" device="153CLV-0605" value="100u"/>
-<part name="LED12" library="led" deviceset="LED" device="SML0603" value="VMOT"/>
-<part name="R57" library="resistor" deviceset="R-EU_" device="R0603" value="1.5k"/>
+<part name="LED12" library="led" deviceset="LED" device="SML0603" value="RED"/>
+<part name="R57" library="resistor" deviceset="R-EU_" device="R0603" value="1.5K"/>
 <part name="JP16" library="SparkFun-Connectors" deviceset="M02" device="LOCK"/>
 <part name="JP21" library="SparkFun-Connectors" deviceset="M02" device="LOCK"/>
 <part name="JP22" library="SparkFun-Connectors" deviceset="M02" device="LOCK"/>
