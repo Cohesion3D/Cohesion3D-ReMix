@@ -31466,6 +31466,8 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <part name="D16" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="BAS16" value="1N4148"/>
 <part name="X8" library="con-phoenix-350-ray" deviceset="1751303" device=""/>
 <part name="X9" library="con-phoenix-762" deviceset="GMSTBA6" device=""/>
+<part name="C15" library="resistor" deviceset="CPOL-EU" device="153CLV-0810"/>
+<part name="C16" library="resistor" deviceset="CPOL-EU" device="153CLV-0810"/>
 </parts>
 <sheets>
 <sheet>
@@ -31817,6 +31819,8 @@ cut a BOM line item</text>
 <instance part="X9" gate="-4" x="43.18" y="287.02"/>
 <instance part="X9" gate="-5" x="43.18" y="281.94"/>
 <instance part="X9" gate="-6" x="43.18" y="276.86"/>
+<instance part="C15" gate="G$1" x="269.24" y="322.58"/>
+<instance part="C16" gate="G$1" x="337.82" y="322.58"/>
 </instances>
 <busses>
 </busses>
@@ -32111,6 +32115,8 @@ cut a BOM line item</text>
 <wire x1="309.88" y1="309.88" x2="325.12" y2="309.88" width="0.1524" layer="91"/>
 <wire x1="325.12" y1="309.88" x2="327.66" y2="309.88" width="0.1524" layer="91"/>
 <wire x1="325.12" y1="317.5" x2="325.12" y2="309.88" width="0.1524" layer="91"/>
+<pinref part="C15" gate="G$1" pin="-"/>
+<wire x1="284.48" y1="317.5" x2="269.24" y2="317.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <label x="88.9" y="353.06" size="1.778" layer="95"/>
@@ -34373,6 +34379,8 @@ cut a BOM line item</text>
 <junction x="287.02" y="325.12"/>
 <pinref part="C26" gate="G$1" pin="+"/>
 <junction x="284.48" y="325.12"/>
+<pinref part="C15" gate="G$1" pin="+"/>
+<wire x1="284.48" y1="325.12" x2="269.24" y2="325.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="VMOT"/>

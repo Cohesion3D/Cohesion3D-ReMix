@@ -31283,7 +31283,6 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <part name="IC2" library="linear" deviceset="LM2596S" device="" value="LM2596-5"/>
 <part name="L2" library="SparkFun-Passives" deviceset="INDUCTOR" device="PWR" value="33uH"/>
 <part name="D2" library="dp_devices" deviceset="DIODE" device="-DO-214AC" value="SS34"/>
-<part name="C26" library="rcl" deviceset="CPOL-EU" device="E2.5-7" value="220u"/>
 <part name="C27" library="rcl" deviceset="CPOL-EU" device="E2.5-7" value="220u"/>
 <part name="D3" library="microbuilder" deviceset="DIODE" device="SMA" value="MBRA210LT3"/>
 <part name="5VREG" library="SparkFun" deviceset="5V" device="" value="5vreg"/>
@@ -31620,7 +31619,6 @@ cut a BOM line item</text>
 <instance part="IC2" gate="G$1" x="297.18" y="322.58"/>
 <instance part="L2" gate="G$1" x="317.5" y="325.12" rot="R90"/>
 <instance part="D2" gate="D" x="309.88" y="320.04" rot="R90"/>
-<instance part="C26" gate="G$1" x="284.48" y="322.58"/>
 <instance part="C27" gate="G$1" x="325.12" y="322.58"/>
 <instance part="D3" gate="G$1" x="274.32" y="370.84"/>
 <instance part="5VREG" gate="G$1" x="269.24" y="393.7"/>
@@ -32109,12 +32107,13 @@ cut a BOM line item</text>
 <junction x="287.02" y="320.04"/>
 <junction x="309.88" y="317.5"/>
 <junction x="309.88" y="309.88"/>
-<pinref part="C26" gate="G$1" pin="-"/>
 <junction x="284.48" y="317.5"/>
 <pinref part="C27" gate="G$1" pin="-"/>
 <wire x1="309.88" y1="309.88" x2="325.12" y2="309.88" width="0.1524" layer="91"/>
 <wire x1="325.12" y1="309.88" x2="327.66" y2="309.88" width="0.1524" layer="91"/>
 <wire x1="325.12" y1="317.5" x2="325.12" y2="309.88" width="0.1524" layer="91"/>
+<pinref part="C15" gate="G$1" pin="-"/>
+<wire x1="284.48" y1="317.5" x2="269.24" y2="317.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <label x="88.9" y="353.06" size="1.778" layer="95"/>
@@ -34375,8 +34374,9 @@ cut a BOM line item</text>
 <label x="279.4" y="327.66" size="1.778" layer="95"/>
 <wire x1="284.48" y1="325.12" x2="284.48" y2="327.66" width="0.1524" layer="91"/>
 <junction x="287.02" y="325.12"/>
-<pinref part="C26" gate="G$1" pin="+"/>
 <junction x="284.48" y="325.12"/>
+<pinref part="C15" gate="G$1" pin="+"/>
+<wire x1="284.48" y1="325.12" x2="269.24" y2="325.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="VMOT"/>

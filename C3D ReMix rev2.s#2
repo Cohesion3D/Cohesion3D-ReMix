@@ -31450,9 +31450,6 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <part name="PAD4" library="wirepad" deviceset="1,6/0,9" device=""/>
 <part name="U$11" library="adafruit" deviceset="FIDUCIAL" device=""/>
 <part name="U$17" library="adafruit" deviceset="FIDUCIAL" device=""/>
-<part name="U$18" library="adafruit" deviceset="FIDUCIAL" device=""/>
-<part name="U$19" library="adafruit" deviceset="FIDUCIAL" device=""/>
-<part name="U$20" library="adafruit" deviceset="FIDUCIAL" device=""/>
 <part name="C23" library="resistor" deviceset="CPOL-EU" device="153CLV-0605" value="100uF"/>
 <part name="C24" library="resistor" deviceset="CPOL-EU" device="153CLV-0605" value="100uF"/>
 <part name="LED12" library="led" deviceset="LED" device="SML0603" value="RED"/>
@@ -31469,6 +31466,8 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <part name="D16" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="BAS16" value="1N4148"/>
 <part name="X8" library="con-phoenix-350-ray" deviceset="1751303" device=""/>
 <part name="X9" library="con-phoenix-762" deviceset="GMSTBA6" device=""/>
+<part name="C15" library="resistor" deviceset="CPOL-EU" device="153CLV-0810"/>
+<part name="C16" library="resistor" deviceset="CPOL-EU" device="153CLV-0810"/>
 </parts>
 <sheets>
 <sheet>
@@ -31792,9 +31791,6 @@ cut a BOM line item</text>
 <instance part="PAD4" gate="1" x="393.7" y="388.62"/>
 <instance part="U$11" gate="G$1" x="17.78" y="215.9"/>
 <instance part="U$17" gate="G$1" x="7.62" y="215.9"/>
-<instance part="U$18" gate="G$1" x="7.62" y="205.74"/>
-<instance part="U$19" gate="G$1" x="17.78" y="205.74"/>
-<instance part="U$20" gate="G$1" x="27.94" y="205.74"/>
 <instance part="C23" gate="G$1" x="20.32" y="7.62"/>
 <instance part="C24" gate="G$1" x="68.58" y="7.62"/>
 <instance part="LED12" gate="G$1" x="43.18" y="73.66" rot="MR270"/>
@@ -31823,6 +31819,8 @@ cut a BOM line item</text>
 <instance part="X9" gate="-4" x="43.18" y="287.02"/>
 <instance part="X9" gate="-5" x="43.18" y="281.94"/>
 <instance part="X9" gate="-6" x="43.18" y="276.86"/>
+<instance part="C15" gate="G$1" x="269.24" y="322.58"/>
+<instance part="C16" gate="G$1" x="337.82" y="322.58"/>
 </instances>
 <busses>
 </busses>
