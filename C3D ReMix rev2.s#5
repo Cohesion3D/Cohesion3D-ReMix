@@ -30617,58 +30617,6 @@ Based on the previous libraries:
 <description>&lt;b&gt;Phoenix Connectors&lt;/b&gt; Grid 3.50 mm&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="1751248">
-<description>&lt;b&gt;MKDS 1/ 2-3,5&lt;/b&gt; Printklemme&lt;p&gt;
-Nennstrom: 10 A&lt;br&gt;
-Bemessungsspannung: 160 V&lt;br&gt;
-Raster: 3,5 mm&lt;br&gt;
-Polzahl: 2&lt;br&gt;
-Montageart: Löten&lt;br&gt;
-Anschlussart: Schraubanschluss&lt;br&gt;
-Anschlussrichtung vom Leiter zur Platine: 0°&lt;br&gt;
-Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
-<wire x1="-3.75" y1="3.65" x2="3.75" y2="3.65" width="0.1016" layer="51"/>
-<wire x1="-3.75" y1="3.65" x2="-3.75" y2="1.9123" width="0.1016" layer="51"/>
-<wire x1="3.75" y1="-2.0993" x2="-3.75" y2="-2.0993" width="0.1016" layer="21"/>
-<wire x1="3.75" y1="-1.6163" x2="3.75" y2="1.4367" width="0.1016" layer="21"/>
-<wire x1="3.75" y1="-2.0993" x2="3.75" y2="-2.911" width="0.1016" layer="21"/>
-<wire x1="3.75" y1="-1.6163" x2="3.75" y2="-2.0993" width="0.1016" layer="21"/>
-<wire x1="-3.75" y1="1.9123" x2="-3.75" y2="1.4367" width="0.1016" layer="51"/>
-<wire x1="-3.75" y1="1.9123" x2="3.75" y2="1.9123" width="0.1016" layer="51"/>
-<wire x1="3.75" y1="1.4367" x2="3.75" y2="1.9123" width="0.1016" layer="51"/>
-<wire x1="-3.75" y1="-1.6163" x2="-3.75" y2="1.4367" width="0.1016" layer="21"/>
-<wire x1="3.75" y1="1.4367" x2="-3.75" y2="1.4367" width="0.1016" layer="21"/>
-<wire x1="-3.75" y1="-1.6163" x2="3.75" y2="-1.6163" width="0.1016" layer="21"/>
-<wire x1="3.75" y1="3.65" x2="3.75" y2="1.9123" width="0.1016" layer="51"/>
-<wire x1="-3.75" y1="-1.6163" x2="-3.75" y2="-2.0993" width="0.1016" layer="21"/>
-<wire x1="-3.75" y1="-2.0993" x2="-3.75" y2="-2.911" width="0.1016" layer="21"/>
-<wire x1="-2.956" y1="-0.811" x2="-1.039" y2="1.106" width="0.1016" layer="51"/>
-<wire x1="3.75" y1="-2.911" x2="-3.75" y2="-2.911" width="0.1016" layer="21"/>
-<wire x1="-3.75" y1="-3.65" x2="3.75" y2="-3.65" width="0.1016" layer="21"/>
-<wire x1="3.75" y1="-3.35" x2="3.75" y2="-3.65" width="0.1016" layer="21"/>
-<wire x1="-3.75" y1="-3.35" x2="3.75" y2="-3.35" width="0.1016" layer="21"/>
-<wire x1="-3.75" y1="-3.35" x2="-3.75" y2="-3.65" width="0.1016" layer="21"/>
-<wire x1="-3.75" y1="-2.911" x2="-3.75" y2="-3.35" width="0.1016" layer="21"/>
-<wire x1="3.75" y1="-2.911" x2="3.75" y2="-3.35" width="0.1016" layer="21"/>
-<wire x1="-0.544" y1="0.611" x2="-0.55" y2="0.605" width="0.1016" layer="21"/>
-<wire x1="-0.55" y1="0.605" x2="-2.461" y2="-1.306" width="0.1016" layer="51"/>
-<wire x1="0.544" y1="-0.811" x2="2.461" y2="1.106" width="0.1016" layer="51"/>
-<wire x1="2.956" y1="0.611" x2="2.95" y2="0.605" width="0.1016" layer="21"/>
-<wire x1="2.95" y1="0.605" x2="1.039" y2="-1.306" width="0.1016" layer="51"/>
-<circle x="-1.75" y="-0.1" radius="1.45" width="0.1016" layer="21"/>
-<circle x="1.75" y="-0.1" radius="1.45" width="0.1016" layer="21"/>
-<pad name="1" x="-1.75" y="-0.1" drill="1.1" diameter="1.7" rot="R90"/>
-<pad name="2" x="1.75" y="-0.1" drill="1.1" diameter="1.7" rot="R90"/>
-<text x="-2.2" y="2.2225" size="1.27" layer="51" font="vector">1</text>
-<text x="1.2925" y="2.2225" size="1.27" layer="51" font="vector">2</text>
-<text x="-4.105" y="-2.8575" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="-2.0525" y="4.1275" size="1.27" layer="27">&gt;VALUE</text>
-<polygon width="0.1016" layer="21">
-<vertex x="-3.1525" y="-2.8575"/>
-<vertex x="-3.47" y="-2.2225"/>
-<vertex x="-2.835" y="-2.2225"/>
-</polygon>
-</package>
 <package name="1751303">
 <description>&lt;b&gt;MKDS 1/ 8-3,5&lt;/b&gt; Printklemme&lt;p&gt;
 Nennstrom: 10 A&lt;br&gt;
@@ -30771,37 +30719,6 @@ Source: http://eshop.phoenixcontact.com .. 1751303.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="1751248" prefix="X">
-<description>&lt;b&gt;MKDS 1/ 2-3,5&lt;/b&gt; Printklemme&lt;p&gt;
-Nennstrom: 10 A&lt;br&gt;
-Bemessungsspannung: 160 V&lt;br&gt;
-Raster: 3,5 mm&lt;br&gt;
-Polzahl: 2&lt;br&gt;
-Montageart: Löten&lt;br&gt;
-Anschlussart: Schraubanschluss&lt;br&gt;
-Anschlussrichtung vom Leiter zur Platine: 0°&lt;br&gt;
-Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
-<gates>
-<gate name="-1" symbol="SCHRAUBKLEMME" x="2.54" y="0" addlevel="always"/>
-<gate name="-2" symbol="SCHRAUBKLEMME" x="2.54" y="-7.62" addlevel="always"/>
-</gates>
-<devices>
-<device name="" package="1751248">
-<connects>
-<connect gate="-1" pin="K" pad="1"/>
-<connect gate="-2" pin="K" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="1751303" prefix="X">
 <description>&lt;b&gt;MKDS 1/ 8-3,5&lt;/b&gt; Printklemme&lt;p&gt;
 Nennstrom: 10 A&lt;br&gt;
@@ -31366,7 +31283,6 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <part name="IC2" library="linear" deviceset="LM2596S" device="" value="LM2596-5"/>
 <part name="L2" library="SparkFun-Passives" deviceset="INDUCTOR" device="PWR" value="33uH"/>
 <part name="D2" library="dp_devices" deviceset="DIODE" device="-DO-214AC" value="SS34"/>
-<part name="C26" library="rcl" deviceset="CPOL-EU" device="E2.5-7" value="220u"/>
 <part name="C27" library="rcl" deviceset="CPOL-EU" device="E2.5-7" value="220u"/>
 <part name="D3" library="microbuilder" deviceset="DIODE" device="SMA" value="MBRA210LT3"/>
 <part name="5VREG" library="SparkFun" deviceset="5V" device="" value="5vreg"/>
@@ -31446,10 +31362,6 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="LED7" library="led" deviceset="LED" device="SML0603" value="RED"/>
 <part name="R37" library="resistor" deviceset="R-EU_" device="R0603" value="1.5k"/>
-<part name="X4" library="con-phoenix-350-ray" deviceset="1751248" device=""/>
-<part name="X5" library="con-phoenix-350-ray" deviceset="1751248" device=""/>
-<part name="X6" library="con-phoenix-350-ray" deviceset="1751248" device=""/>
-<part name="X7" library="con-phoenix-350-ray" deviceset="1751248" device=""/>
 <part name="U$7" library="RepRapjr" deviceset="POLOLU_A4983CARRIER" device=""/>
 <part name="C38" library="resistor" deviceset="C-EU" device="C0603" value="104"/>
 <part name="C39" library="resistor" deviceset="C-EU" device="C0603" value="104"/>
@@ -31537,9 +31449,6 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <part name="PAD4" library="wirepad" deviceset="1,6/0,9" device=""/>
 <part name="U$11" library="adafruit" deviceset="FIDUCIAL" device=""/>
 <part name="U$17" library="adafruit" deviceset="FIDUCIAL" device=""/>
-<part name="U$18" library="adafruit" deviceset="FIDUCIAL" device=""/>
-<part name="U$19" library="adafruit" deviceset="FIDUCIAL" device=""/>
-<part name="U$20" library="adafruit" deviceset="FIDUCIAL" device=""/>
 <part name="C23" library="resistor" deviceset="CPOL-EU" device="153CLV-0605" value="100uF"/>
 <part name="C24" library="resistor" deviceset="CPOL-EU" device="153CLV-0605" value="100uF"/>
 <part name="LED12" library="led" deviceset="LED" device="SML0603" value="RED"/>
@@ -31556,6 +31465,8 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <part name="D16" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="BAS16" value="1N4148"/>
 <part name="X8" library="con-phoenix-350-ray" deviceset="1751303" device=""/>
 <part name="X9" library="con-phoenix-762" deviceset="GMSTBA6" device=""/>
+<part name="C15" library="resistor" deviceset="CPOL-EU" device="153CLV-0810"/>
+<part name="C16" library="resistor" deviceset="CPOL-EU" device="153CLV-0810"/>
 </parts>
 <sheets>
 <sheet>
@@ -31708,7 +31619,6 @@ cut a BOM line item</text>
 <instance part="IC2" gate="G$1" x="297.18" y="322.58"/>
 <instance part="L2" gate="G$1" x="317.5" y="325.12" rot="R90"/>
 <instance part="D2" gate="D" x="309.88" y="320.04" rot="R90"/>
-<instance part="C26" gate="G$1" x="284.48" y="322.58"/>
 <instance part="C27" gate="G$1" x="325.12" y="322.58"/>
 <instance part="D3" gate="G$1" x="274.32" y="370.84"/>
 <instance part="5VREG" gate="G$1" x="269.24" y="393.7"/>
@@ -31788,14 +31698,6 @@ cut a BOM line item</text>
 <instance part="GND15" gate="1" x="520.7" y="320.04"/>
 <instance part="LED7" gate="G$1" x="492.76" y="345.44" rot="MR270"/>
 <instance part="R37" gate="G$1" x="510.54" y="345.44" rot="MR180"/>
-<instance part="X4" gate="-1" x="558.8" y="342.9"/>
-<instance part="X4" gate="-2" x="558.8" y="335.28"/>
-<instance part="X5" gate="-1" x="556.26" y="299.72"/>
-<instance part="X5" gate="-2" x="556.26" y="292.1"/>
-<instance part="X6" gate="-1" x="556.26" y="266.7"/>
-<instance part="X6" gate="-2" x="556.26" y="259.08"/>
-<instance part="X7" gate="-1" x="553.72" y="233.68"/>
-<instance part="X7" gate="-2" x="553.72" y="226.06"/>
 <instance part="U$7" gate="G$1" x="347.98" y="124.46"/>
 <instance part="C38" gate="G$1" x="373.38" y="127" rot="R90"/>
 <instance part="C39" gate="G$1" x="373.38" y="111.76" rot="R90"/>
@@ -31887,9 +31789,6 @@ cut a BOM line item</text>
 <instance part="PAD4" gate="1" x="393.7" y="388.62"/>
 <instance part="U$11" gate="G$1" x="17.78" y="215.9"/>
 <instance part="U$17" gate="G$1" x="7.62" y="215.9"/>
-<instance part="U$18" gate="G$1" x="7.62" y="205.74"/>
-<instance part="U$19" gate="G$1" x="17.78" y="205.74"/>
-<instance part="U$20" gate="G$1" x="27.94" y="205.74"/>
 <instance part="C23" gate="G$1" x="20.32" y="7.62"/>
 <instance part="C24" gate="G$1" x="68.58" y="7.62"/>
 <instance part="LED12" gate="G$1" x="43.18" y="73.66" rot="MR270"/>
@@ -31918,6 +31817,8 @@ cut a BOM line item</text>
 <instance part="X9" gate="-4" x="43.18" y="287.02"/>
 <instance part="X9" gate="-5" x="43.18" y="281.94"/>
 <instance part="X9" gate="-6" x="43.18" y="276.86"/>
+<instance part="C15" gate="G$1" x="269.24" y="322.58"/>
+<instance part="C16" gate="G$1" x="337.82" y="322.58"/>
 </instances>
 <busses>
 </busses>
@@ -32206,12 +32107,16 @@ cut a BOM line item</text>
 <junction x="287.02" y="320.04"/>
 <junction x="309.88" y="317.5"/>
 <junction x="309.88" y="309.88"/>
-<pinref part="C26" gate="G$1" pin="-"/>
 <junction x="284.48" y="317.5"/>
 <pinref part="C27" gate="G$1" pin="-"/>
 <wire x1="309.88" y1="309.88" x2="325.12" y2="309.88" width="0.1524" layer="91"/>
 <wire x1="325.12" y1="309.88" x2="327.66" y2="309.88" width="0.1524" layer="91"/>
 <wire x1="325.12" y1="317.5" x2="325.12" y2="309.88" width="0.1524" layer="91"/>
+<pinref part="C15" gate="G$1" pin="-"/>
+<wire x1="284.48" y1="317.5" x2="269.24" y2="317.5" width="0.1524" layer="91"/>
+<pinref part="C16" gate="G$1" pin="-"/>
+<wire x1="337.82" y1="317.5" x2="325.12" y2="317.5" width="0.1524" layer="91"/>
+<junction x="325.12" y="317.5"/>
 </segment>
 <segment>
 <label x="88.9" y="353.06" size="1.778" layer="95"/>
@@ -34472,8 +34377,9 @@ cut a BOM line item</text>
 <label x="279.4" y="327.66" size="1.778" layer="95"/>
 <wire x1="284.48" y1="325.12" x2="284.48" y2="327.66" width="0.1524" layer="91"/>
 <junction x="287.02" y="325.12"/>
-<pinref part="C26" gate="G$1" pin="+"/>
 <junction x="284.48" y="325.12"/>
+<pinref part="C15" gate="G$1" pin="+"/>
+<wire x1="284.48" y1="325.12" x2="269.24" y2="325.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="VMOT"/>
@@ -34603,6 +34509,8 @@ cut a BOM line item</text>
 <wire x1="325.12" y1="330.2" x2="325.12" y2="325.12" width="0.1524" layer="91"/>
 <pinref part="C27" gate="G$1" pin="+"/>
 <junction x="325.12" y="325.12"/>
+<pinref part="C16" gate="G$1" pin="+"/>
+<wire x1="337.82" y1="325.12" x2="325.12" y2="325.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="D3" gate="G$1" pin="A"/>
@@ -35179,7 +35087,6 @@ cut a BOM line item</text>
 <wire x1="520.7" y1="342.9" x2="538.48" y2="342.9" width="0.1524" layer="91"/>
 <label x="520.7" y="342.9" size="1.778" layer="95"/>
 <wire x1="538.48" y1="342.9" x2="538.48" y2="335.28" width="0.1524" layer="91"/>
-<pinref part="X4" gate="-2" pin="K"/>
 <wire x1="538.48" y1="335.28" x2="556.26" y2="335.28" width="0.1524" layer="91"/>
 <pinref part="R37" gate="G$1" pin="2"/>
 <wire x1="515.62" y1="345.44" x2="518.16" y2="345.44" width="0.1524" layer="91"/>
@@ -35213,13 +35120,11 @@ cut a BOM line item</text>
 <pinref part="X1" gate="-1" pin="1"/>
 </segment>
 <segment>
-<pinref part="X4" gate="-1" pin="K"/>
 <wire x1="556.26" y1="342.9" x2="541.02" y2="342.9" width="0.1524" layer="91"/>
 <label x="541.02" y="342.9" size="1.778" layer="95"/>
 <pinref part="JP16" gate="G$1" pin="1"/>
 <wire x1="599.44" y1="340.36" x2="556.26" y2="340.36" width="0.1524" layer="91"/>
 <wire x1="556.26" y1="340.36" x2="556.26" y2="342.9" width="0.1524" layer="91"/>
-<junction x="556.26" y="342.9"/>
 <pinref part="X8" gate="-1" pin="K"/>
 <wire x1="599.44" y1="340.36" x2="637.54" y2="340.36" width="0.1524" layer="91"/>
 <junction x="599.44" y="340.36"/>
@@ -35270,9 +35175,7 @@ cut a BOM line item</text>
 <wire x1="584.2" y1="297.18" x2="553.72" y2="297.18" width="0.1524" layer="91"/>
 <wire x1="553.72" y1="299.72" x2="541.02" y2="299.72" width="0.1524" layer="91"/>
 <label x="541.02" y="299.72" size="1.778" layer="95"/>
-<pinref part="X5" gate="-1" pin="K"/>
 <wire x1="553.72" y1="297.18" x2="553.72" y2="299.72" width="0.1524" layer="91"/>
-<junction x="553.72" y="299.72"/>
 <pinref part="X8" gate="-3" pin="K"/>
 <wire x1="637.54" y1="325.12" x2="584.2" y2="325.12" width="0.1524" layer="91"/>
 <wire x1="584.2" y1="325.12" x2="584.2" y2="297.18" width="0.1524" layer="91"/>
@@ -35284,9 +35187,7 @@ cut a BOM line item</text>
 <wire x1="589.28" y1="264.16" x2="553.72" y2="264.16" width="0.1524" layer="91"/>
 <wire x1="553.72" y1="266.7" x2="541.02" y2="266.7" width="0.1524" layer="91"/>
 <label x="541.02" y="266.7" size="1.778" layer="95"/>
-<pinref part="X6" gate="-1" pin="K"/>
 <wire x1="553.72" y1="264.16" x2="553.72" y2="266.7" width="0.1524" layer="91"/>
-<junction x="553.72" y="266.7"/>
 <pinref part="X8" gate="-5" pin="K"/>
 <wire x1="637.54" y1="309.88" x2="589.28" y2="309.88" width="0.1524" layer="91"/>
 <wire x1="589.28" y1="309.88" x2="589.28" y2="264.16" width="0.1524" layer="91"/>
@@ -35298,9 +35199,7 @@ cut a BOM line item</text>
 <wire x1="591.82" y1="231.14" x2="551.18" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="551.18" y1="233.68" x2="541.02" y2="233.68" width="0.1524" layer="91"/>
 <label x="541.02" y="233.68" size="1.778" layer="95"/>
-<pinref part="X7" gate="-1" pin="K"/>
 <wire x1="551.18" y1="231.14" x2="551.18" y2="233.68" width="0.1524" layer="91"/>
-<junction x="551.18" y="233.68"/>
 <pinref part="X8" gate="-7" pin="K"/>
 <wire x1="637.54" y1="294.64" x2="614.68" y2="294.64" width="0.1524" layer="91"/>
 <wire x1="614.68" y1="294.64" x2="614.68" y2="248.92" width="0.1524" layer="91"/>
@@ -35740,7 +35639,6 @@ cut a BOM line item</text>
 <wire x1="518.16" y1="302.26" x2="518.16" y2="299.72" width="0.1524" layer="91"/>
 <wire x1="518.16" y1="299.72" x2="520.7" y2="299.72" width="0.1524" layer="91"/>
 <junction x="520.7" y="299.72"/>
-<pinref part="X5" gate="-2" pin="K"/>
 <wire x1="553.72" y1="281.94" x2="553.72" y2="292.1" width="0.1524" layer="91"/>
 <junction x="553.72" y="292.1"/>
 <wire x1="553.72" y1="294.64" x2="553.72" y2="292.1" width="0.1524" layer="91"/>
@@ -35768,7 +35666,6 @@ cut a BOM line item</text>
 <wire x1="518.16" y1="269.24" x2="518.16" y2="266.7" width="0.1524" layer="91"/>
 <wire x1="518.16" y1="266.7" x2="520.7" y2="266.7" width="0.1524" layer="91"/>
 <junction x="520.7" y="266.7"/>
-<pinref part="X6" gate="-2" pin="K"/>
 <wire x1="553.72" y1="248.92" x2="553.72" y2="259.08" width="0.1524" layer="91"/>
 <junction x="553.72" y="259.08"/>
 <wire x1="553.72" y1="261.62" x2="553.72" y2="259.08" width="0.1524" layer="91"/>
@@ -35796,7 +35693,6 @@ cut a BOM line item</text>
 <wire x1="518.16" y1="236.22" x2="518.16" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="518.16" y1="233.68" x2="520.7" y2="233.68" width="0.1524" layer="91"/>
 <junction x="520.7" y="233.68"/>
-<pinref part="X7" gate="-2" pin="K"/>
 <wire x1="551.18" y1="215.9" x2="551.18" y2="226.06" width="0.1524" layer="91"/>
 <junction x="551.18" y="226.06"/>
 <wire x1="551.18" y1="228.6" x2="551.18" y2="226.06" width="0.1524" layer="91"/>
